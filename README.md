@@ -18,7 +18,7 @@ This is the **foundation** of the Space Shooter game. No bullets or enemies yet 
 
 ---
 
-## 🗂️ File Structure
+##  File Structure
 
 ```
 Week1/
@@ -30,7 +30,7 @@ Week1/
 
 ---
 
-## 🔧 How to Compile
+##  How to Compile
 
 ### Linux / macOS
 ```bash
@@ -63,7 +63,7 @@ g++ main.cpp -o SpaceShooter.exe -IC:\SFML\include -LC:\SFML\lib ^
 
 ---
 
-## 🕹️ Controls
+##  Controls
 
 | Key | Action |
 |-----|--------|
@@ -74,7 +74,7 @@ g++ main.cpp -o SpaceShooter.exe -IC:\SFML\include -LC:\SFML\lib ^
 ---
 
 
-## 🔍 Code Walkthrough
+##  Code Walkthrough
 
 ```
 main()
@@ -93,7 +93,7 @@ main()
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - The `struct Star` is defined inside the `Game` class — it is only used by the Game so it makes sense to keep it local.
 - `ConvexShape` is used for the player hull because it allows any convex polygon, not just rectangles or circles.
